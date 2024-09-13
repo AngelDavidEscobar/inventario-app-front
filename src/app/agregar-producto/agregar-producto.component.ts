@@ -17,6 +17,7 @@ export class AgregarProductoComponent {
     onSubmit(){
       this.guardarProducto();
     }
+    
     guardarProducto(){
       this.ProductoServicio.agregarProducto(this.producto).subscribe(
         {
